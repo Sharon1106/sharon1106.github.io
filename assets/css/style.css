@@ -1,0 +1,51 @@
+.navy-blue-theme {
+  background-color: #002458;
+  color: whitesmoke;
+}
+header {
+  font-family: 'Roboto', sans-serif;
+  padding:100px;
+}
+
+header h1 {
+  display: inline-block;
+  font-size: 40px;
+}
+
+header nav{
+  font-size: 20px;
+  float: right;
+  padding-top: 15px;
+  margin-right: 20px;
+}
+
+header nav ul {
+  list-style-type: none;
+
+}
+header nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+  text-align: justify;
+}
+
+li {
+  color: whitesmoke;
+}
+
+a {
+  text-decoration: none;
+}
+
+#about-me{
+
+}
+
+#work {
+
+}
+
+#contact-me{
+
+}
+
