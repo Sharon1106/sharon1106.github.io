@@ -3,8 +3,16 @@
   color: whitesmoke;
   font-family: 'Roboto', sans-serif;
 }
+
+body{
+  font-family: 'Roboto', sans-serif, Arial;
+  margin: 100px;
+}
 header {
-  padding:100px;
+  padding:40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 header h1 {
@@ -34,17 +42,15 @@ li {
 
 a {
   text-decoration: none;
+  
 }
+
+
 
 h2 {
   font-size: 50px;
 }
-.main-content{
-  display:inline-block;
-  border-style: dashed;
-  margin-left: auto;
-  margin-right: auto;
-}
+
   .float-right {
     float: right;
     margin-left: 50px;
@@ -55,30 +61,27 @@ h2 {
     margin-right:50px; 
   }
 
-.about-me-section {
+.about-me {
 
 }
 
-.work-section {
+.work{
 
 }
-
-.contact-me-section {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+ .contact-me ul li {
+  text-align: right;
+  list-style-type: none;
 }
 
-
-
-
-
+.contact-me h2 {
+  text-align:center;
+}
 
 
 
 footer {
   padding:0;
-  text-align: center
+  text-align: center;
 }
 footer h2 {
     font-size:20px
