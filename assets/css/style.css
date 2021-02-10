@@ -1,9 +1,9 @@
 .navy-blue-theme {
   background-color: #002458;
   color: whitesmoke;
+  font-family: 'Roboto', sans-serif;
 }
 header {
-  font-family: 'Roboto', sans-serif;
   padding:100px;
 }
 
@@ -15,8 +15,7 @@ header h1 {
 header nav{
   font-size: 20px;
   float: right;
-  padding-top: 15px;
-  margin-right: 20px;
+  align-content: space-between
 }
 
 header nav ul {
@@ -37,15 +36,50 @@ a {
   text-decoration: none;
 }
 
-#about-me{
+h2 {
+  font-size: 50px;
+}
+.main-content{
+  display:inline-block;
+  border-style: dashed;
+  margin-left: auto;
+  margin-right: auto;
+}
+  .float-right {
+    float: right;
+    margin-left: 50px;
+  }
+
+  .float-left {
+    float: left;
+    margin-right:50px; 
+  }
+
+.about-me-section {
 
 }
 
-#work {
+.work-section {
 
 }
 
-#contact-me{
-
+.contact-me-section {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+
+
+
+
+
+
+
+footer {
+  padding:0;
+  text-align: center
+}
+footer h2 {
+    font-size:20px
+}
