@@ -1,3 +1,5 @@
+
+/*background is blue with roboto font and whitesmoke*/
 .navy-blue-theme {
   background-color: #002458;
   color: whitesmoke;
@@ -44,31 +46,60 @@ a {
   text-decoration: none;
   
 }
+/*large text on left side*/
+.section-title{
+font-size: 38px;
+width: 20%;
+display: flex;
+flex: initial;
+justify-content: center;
+padding-right: 15px;
+border-right: solid 5px;
+margin: 20px 0;
+text-decoration: none;
+text-shadow: 0 0 5px grey;
+}
 
+.about-me  {
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction: row;
+  align-content:center;
+  justify-content: flex-start;
+  width: 100%;
+  margin:50px;
+}
 
+  .about-me p{
+  width: 70%;
+  margin-top: 40px;
+  margin-left: 20px;
+  display:flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  flex-direction:row;
+}
 
 h2 {
   font-size: 50px;
 }
 
-  .float-right {
-    float: right;
-    margin-left: 50px;
-  }
-
-  .float-left {
-    float: left;
-    margin-right:50px; 
-  }
-
-.about-me {
-
+.float-right {
+  float: right;
+  margin-left: 50px;
 }
+
+.float-left {
+  float: left;
+  margin-right:50px; 
+}
+
 
 .work{
 
 }
- .contact-me ul li {
+.contact-me ul li {
   text-align: right;
   list-style-type: none;
 }
