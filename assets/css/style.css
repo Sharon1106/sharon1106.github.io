@@ -90,7 +90,7 @@ text-shadow: 0 0 10px grey;
   margin:50px;
 }
 
-work-images {
+.work-images {
 
 }
 .grid {
@@ -98,10 +98,32 @@ work-images {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   grid-gap: 10px;
-  margin-left: 15px;
+  margin-left: 30px;
   width: 100%;
   grid-auto-flow: dense;
 }
+
+.grid a {
+  
+}
+
+.grid-1 {
+  height: 400px;
+}
+
+.grid-2 {
+  height: 200px;
+}
+.grid-3 {
+  height: 200px;
+}
+.grid-4 {
+  height: 200px;
+}
+.grid-5 {
+  height: 200px;
+}
+
 
 
 .contact-me  {
