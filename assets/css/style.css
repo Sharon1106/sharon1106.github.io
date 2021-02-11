@@ -3,52 +3,49 @@
 .navy-blue-theme {
   background-color: #002458;
   color: whitesmoke;
-  font-family: 'Roboto', sans-serif;
-}
-
-body{
-  font-family: 'Roboto', sans-serif, Arial;
+  font-family: 'Roboto', sans-seri, Arial;
   margin: 100px;
 }
+
+
+/* Styles for header*/
 header {
-  padding:40px;
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top:auto;
 }
 
 header h1 {
-  display: inline-block;
-  font-size: 40px;
+  font-size: 35px;
+  justify-content: left;
 }
-
-header nav{
-  font-size: 20px;
-  float: right;
-  align-content: space-between
-}
-
-header nav ul {
+/*styling for links*/
+header nav a {
+  text-decoration: none;
+  color: whitesmoke;
+  text-shadow: 0 0 5px grey;
   list-style-type: none;
-
+  text-align: center;
+  float: right;
+  align-content: space-between;
+  font-size: 20px;
 }
+
 header nav ul li {
   display: inline-block;
-  margin-left: 20px;
-  text-align: justify;
+  margin-left: 75px;
+  text-align: center;
+  text-shadow: 0 0 5px grey;
 }
 
-li {
-  color: whitesmoke;
+main {
+
 }
 
-a {
-  text-decoration: none;
-  
-}
-/*large text on left side*/
+/*style for section titles*/
 .section-title{
-font-size: 38px;
+font-size: 50px;
 width: 20%;
 display: flex;
 flex: initial;
@@ -59,8 +56,11 @@ margin: 20px 0;
 text-decoration: none;
 text-shadow: 0 0 5px grey;
 }
+.section-title h2 {
+    justify-content: flex-start;
 
-.about-me  {
+/*styles for about me section*/
+.about-me {
   display:flex;
   flex-wrap:wrap;
   flex-direction: row;
@@ -70,42 +70,34 @@ text-shadow: 0 0 5px grey;
   margin:50px;
 }
 
-  .about-me p{
+.about-me p{
   width: 70%;
-  margin-top: 40px;
-  margin-left: 20px;
+  margin-top: 30px;
+  margin-left: 30px;
   display:flex;
-  justify-content: flex-start;
   align-items: flex-start;
   flex-wrap: wrap;
   flex-direction:row;
 }
 
-h2 {
-  font-size: 50px;
-}
-
-.float-right {
-  float: right;
-  margin-left: 50px;
-}
-
-.float-left {
-  float: left;
-  margin-right:50px; 
-}
-
-
 .work{
-
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction: row;
+  align-content:center;
+  justify-content: flex-start;
+  width: 100%;
+  margin:50px;
 }
-.contact-me ul li {
-  text-align: right;
-  list-style-type: none;
-}
 
-.contact-me h2 {
-  text-align:center;
+.comtact-me  {
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction: row;
+  align-content:center;
+  justify-content: flex-start;
+  width: 100%;
+  margin:50px;
 }
 
 
