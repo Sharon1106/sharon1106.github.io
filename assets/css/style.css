@@ -7,7 +7,6 @@
   margin: 100px;
 }
 
-
 /* Styles for header*/
 header {
   display: flex;
@@ -39,10 +38,6 @@ header nav ul li {
   text-shadow: 0 0 5px grey;
 }
 
-main {
-
-}
-
 /*style for section titles*/
 .section-title{
 font-size: 50px;
@@ -56,9 +51,11 @@ margin: 20px 0;
 text-decoration: none;
 text-shadow: 0 0 10px grey;
 }
+
 .section-title h2 {
     justify-content: flex-start;
 }
+
 /*styles for about me section*/
 .about-me {
   display:flex;
@@ -90,9 +87,8 @@ text-shadow: 0 0 10px grey;
   margin:50px;
 }
 
-.work-images {
-
 }
+
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -114,6 +110,7 @@ text-shadow: 0 0 10px grey;
   flex-direction: column;
   justify-content: flex-start;
 }
+
 .grid-2{
   height: 100px;
   background-image: url();
@@ -121,6 +118,7 @@ text-shadow: 0 0 10px grey;
   display: flex;
   flex-direction:column;
 }
+
 .grid-3 {
   height: 100px;
   background-image: url();
@@ -137,16 +135,12 @@ text-shadow: 0 0 10px grey;
   flex-direction:column;
 }
 
-
-
-
 .contact-me  {
   display:flex;
   flex-wrap:wrap;
   width: 100%;
   margin:50px;
 }
-
 
 .contact-info a {
   text-decoration: none;
@@ -157,18 +151,13 @@ text-shadow: 0 0 10px grey;
   
 }
 
-
-
 footer {
   padding:0;
   text-align: center;
 }
 footer h2 {
-    font-size:20px
+    font-size:20px;
 }
-
-
-
 
 /* For screens other than a computers*/
 
