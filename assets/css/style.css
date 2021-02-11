@@ -58,7 +58,7 @@ text-shadow: 0 0 5px grey;
 }
 .section-title h2 {
     justify-content: flex-start;
-
+}
 /*styles for about me section*/
 .about-me {
   display:flex;
