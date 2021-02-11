@@ -24,7 +24,7 @@ header h1 {
 header nav a {
   text-decoration: none;
   color: whitesmoke;
-  text-shadow: 0 0 5px grey;
+  text-shadow: 0 0 10px grey;
   list-style-type: none;
   text-align: center;
   float: right;
@@ -54,7 +54,7 @@ padding-right: 15px;
 border-right: solid 5px;
 margin: 20px 0;
 text-decoration: none;
-text-shadow: 0 0 5px grey;
+text-shadow: 0 0 10px grey;
 }
 .section-title h2 {
     justify-content: flex-start;
@@ -72,7 +72,7 @@ text-shadow: 0 0 5px grey;
 
 .about-me p{
   width: 70%;
-  margin-top: 30px;
+  margin-top: 40px;
   margin-left: 30px;
   display:flex;
   align-items: flex-start;
@@ -90,14 +90,36 @@ text-shadow: 0 0 5px grey;
   margin:50px;
 }
 
-.comtact-me  {
+work-images {
+
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 10px;
+  margin-left: 15px;
+  width: 100%;
+  grid-auto-flow: dense;
+}
+
+
+.contact-me  {
   display:flex;
   flex-wrap:wrap;
-  flex-direction: row;
-  align-content:center;
-  justify-content: flex-start;
   width: 100%;
   margin:50px;
+}
+
+
+.contact-info a {
+  text-decoration: none;
+  font-size: 20px;
+  display: inline-block;
+  margin-left: 100px;
+  text-align: center;
+  padding: 40px 60px;
+
 }
 
 
