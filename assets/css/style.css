@@ -38,8 +38,14 @@ header nav ul li {
   text-shadow: 0 0 5px grey;
 }
 
-/*style for section titles*/
-.section-title{
+.container{
+  width: 90%;
+  margin: 0 auto;
+  padding: 40px 0;
+  display: flex;
+}
+
+.container-title{
   font-size: 50px;
   width: 20%;
   display: flex;
@@ -53,10 +59,19 @@ header nav ul li {
   justify-content: flex-start;
 }
 
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin-left:25px;
+}
+
 
 
 /*styles for about me section*/
-.about-me {
+/* .about-me {
   display:flex;
   flex-wrap:wrap;
   flex-direction: row;
@@ -74,23 +89,53 @@ header nav ul li {
   align-items: flex-start;
   flex-wrap: wrap;
   flex-direction:row;
-}
-
-.container{
-  display:flex;
-  flex-wrap:wrap;
-  flex-direction: row;
-  align-content:center;
-  justify-content: flex-start;
-  width: 100%;
-  margin:50px;
-}
-
+} */
 
 
 /* REPLACE WITH FLEXBOX !!!!!!!!!!!!*/
-.grid-layout {
+
+.grid-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
+
+
+.grid-layout {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  grid-template-rows: repeat(3, 175px);
+  grid-gap: 10px;
+  grid-auto-flow: dense;
+}
+
+.work-1 {
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 2;
+}
+
+.work-image {
+  border: 1px solid whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.snapshot {
+  height: 50%;
+  width: 50%;
+  opacity: 0.4;
+  transition: 0.5s;
+}
+.snapshot:hover{
+  opacity:2;
+}
+
+
+
+
+
 
 /* REPLACE WITH FLEXBOX!!!!!!!!!!!!*/
 
