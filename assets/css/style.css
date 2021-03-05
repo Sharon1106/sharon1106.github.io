@@ -1,3 +1,8 @@
+/* //styling for whole page */
+* {
+  margin: 0;
+  padding: 0;
+}
 
 /*background is blue with roboto font and whitesmoke*/
 .navy-blue-theme {
@@ -7,12 +12,22 @@
   margin: 100px;
 }
 
+main {
+  display: block;
+}
+
 /* Styles for header*/
 header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin-top:auto;
+  position: sticky;
+  z-index: 999;
+  padding: 30px 30px 20px 0px;
+  top: 0;
+  border-bottom: 1px solid white;
+  background-color:#002458;
 }
 
 header h1 {
@@ -23,7 +38,6 @@ header h1 {
 header nav a {
   text-decoration: none;
   color: whitesmoke;
-  text-shadow: 0 0 10px grey;
   list-style-type: none;
   text-align: center;
   float: right;
@@ -35,9 +49,13 @@ header nav ul li {
   display: inline-block;
   margin-left: 75px;
   text-align: center;
-  text-shadow: 0 0 5px grey;
 }
 
+header nav ul li a:hover {
+    text-shadow: 0 0 20px white;
+}
+
+/* styling for main container content */
 .container{
   width: 90%;
   margin: 0 auto;
@@ -59,7 +77,15 @@ header nav ul li {
   justify-content: flex-start;
 }
 
-p {
+.container-content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+}
+
+
+.container-content p {
   display: block;
   margin-block-start: 1em;
   margin-block-end: 1em;
@@ -67,29 +93,6 @@ p {
   margin-inline-end: 0px;
   margin-left:25px;
 }
-
-
-
-/*styles for about me section*/
-/* .about-me {
-  display:flex;
-  flex-wrap:wrap;
-  flex-direction: row;
-  align-content:center;
-  justify-content: flex-start;
-  width: 100%;
-  margin:50px;
-}
-
-.about-me p{
-  width: 70%;
-  margin-top: 40px;
-  margin-left: 30px;
-  display:flex;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  flex-direction:row;
-} */
 
 
 /* REPLACE WITH FLEXBOX !!!!!!!!!!!!*/
@@ -120,6 +123,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  border-radius: 5px;
 }
 
 .snapshot {
@@ -128,23 +132,35 @@ p {
   opacity: 0.4;
   transition: 0.5s;
 }
+
 .snapshot:hover{
   opacity:2;
 }
 
+.app-description {
+  position: absolute;
+  width: 100px;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  border-radius: 0 5px 5px 0;
+  text-align: left;
+  background-color: #6389bd;
+  color: whitesmoke;
+}
 
+.app-description h3 {
+  font-family: 'Roboto', sans-seri, Arial;
+  font-size: 16px;
 
+}
 
+.app-description p {
+  font-family: 'Roboto', sans-seri, Arial;
+  font-size: 12px;
+}
 
 
 /* REPLACE WITH FLEXBOX!!!!!!!!!!!!*/
-
-.contact-me  {
-  display:flex;
-  flex-wrap:wrap;
-  width: 100%;
-  margin:50px;
-}
 
 .contact-info a {
   text-decoration: none;
@@ -152,8 +168,14 @@ p {
   margin-left: 100px;
   text-align: center;
   padding: 40px 60px;
+  transition: all .2s ease-in-out; 
   
 }
+
+.contact-info a:hover {
+  transform: scale(1.2); 
+}
+
 
 footer {
   padding:0;
@@ -163,7 +185,12 @@ footer {
 
 /* For screens other than a computers*/
 
-@media screen and (max-width: 992px) {
+/* @media screen and (max-width: 992px) {
   header nav {
     width: 100%;
-  }
+  } */
+  /* media screen and (max-width: 1028px)
+  .grid-layout {
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: repeat(4, 100px);
+  } */
