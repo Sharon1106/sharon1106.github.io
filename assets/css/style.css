@@ -40,21 +40,20 @@ header nav ul li {
 
 /*style for section titles*/
 .section-title{
-font-size: 50px;
-width: 20%;
-display: flex;
-flex: initial;
-justify-content: center;
-padding-right: 15px;
-border-right: solid 5px;
-margin: 20px 0;
-text-decoration: none;
-text-shadow: 0 0 10px grey;
+  font-size: 50px;
+  width: 20%;
+  display: flex;
+  flex: initial;
+  justify-content: center;
+  padding-right: 15px;
+  border-right: solid 5px;
+  margin: 20px 0;
+  text-decoration: none;
+  text-shadow: 0 0 10px grey;
+  justify-content: flex-start;
 }
 
-.section-title h2 {
-    justify-content: flex-start;
-}
+
 
 /*styles for about me section*/
 .about-me {
@@ -77,7 +76,7 @@ text-shadow: 0 0 10px grey;
   flex-direction:row;
 }
 
-.work{
+.container{
   display:flex;
   flex-wrap:wrap;
   flex-direction: row;
@@ -87,11 +86,10 @@ text-shadow: 0 0 10px grey;
   margin:50px;
 }
 
-}
 
 
 /* REPLACE WITH FLEXBOX !!!!!!!!!!!!*/
-.grid {
+.grid-layout {
 }
 
 /* REPLACE WITH FLEXBOX!!!!!!!!!!!!*/
