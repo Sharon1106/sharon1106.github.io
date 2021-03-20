@@ -1,6 +1,6 @@
 # HW-2:html-css-code-portfolio
 ## Description
-For this assignment I created my portfolio. The portfolio includes a header with navigating links to sections within the same page. The sit contains an about me section, a section where they can view their applications. And a contact me section. 
+For this assignment I created my portfolio. The portfolio includes a header with navigating links to sections within the same page. It contains an about me section, a section where you can view my applications. And a contact me section. 
 ```
 AS AN employer
 I WANT to view a potential employee's deployed portfolio of work samples
