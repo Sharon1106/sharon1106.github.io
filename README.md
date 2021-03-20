@@ -10,6 +10,6 @@ SO THAT I can review samples of their work and assess whether they're a good can
 
 ### Issues
 I had issues adjusting the grid and stacking the boxes in them is neat rows after a large image for the main work section.
-I also had issues adding images to the grid boxes without the pictures being oversized. 
+I also had issues adding images to the grid boxes without the pictures being oversized. Using pure css and html for this assignment was tricky for me. THe grid layout is something to get used to. 
 
 #### A work in progress...
