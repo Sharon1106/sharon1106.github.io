@@ -1,4 +1,4 @@
-# HW-2:html-css-code-portfolio
+# HTml and Css Portfolio
 ## Description
 For this assignment I created my portfolio. The portfolio includes a header with navigating links to sections within the same page. It contains an about me section, a section where you can view my applications. And a contact me section. 
 ```
